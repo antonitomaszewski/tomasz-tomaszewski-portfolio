@@ -1,0 +1,144 @@
+{
+    "title": "Tomasz Tomaszewski",
+    "subtitle": "Rzeźbiarz · nagrobki artystyczne i pomniki na zamówienie",
+    "hero": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp",
+    "backgrounds": [
+        "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp",
+        "realizacje/pomnik-wspolnej-pamieci/dscf3805.webp",
+        "realizacje/nagrobek-kornela-morawieckiego/dscf3026.webp",
+        "realizacje/pomnik-wspolnej-pamieci/dscf3779.webp"
+    ],
+    "sections": [
+        {
+            "id": "o-tworcy",
+            "type": "about",
+            "nav": "O twórcy",
+            "title": "O twórcy",
+            "content": "<p>Tomasz Tomaszewski jest rzeźbiarzem. Projektuje nagrobki artystyczne, pomniki i kompozycje upamiętniające, myśląc o trwałości, proporcji i znaczeniu dzieła.</p><p>Jest autorem m.in. Pomnika Wspólnej Pamięci we Wrocławiu, pomnika gen. Stanisława Maczka w Bredzie oraz nagrobka Kornela Morawieckiego na warszawskich Powązkach.</p><p>Każde upamiętnienie projektuje indywidualnie, z szacunkiem do miejsca i historii, którą ma przechowywać.</p>"
+        },
+        {
+            "id": "realizacje",
+            "type": "series",
+            "nav": "Realizacje",
+            "title": "Realizacje",
+            "content": "<p>Wybrane realizacje. Kliknij, aby zobaczyć galerię.</p>",
+            "series": [
+                {
+                    "title": "Nagrobek Kornela Morawieckiego",
+                    "place": "Powązki, Warszawa",
+                    "thumbnail": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3031.webp",
+                    "images": [
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3026.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3027.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3028.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3029.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3031.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3032.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp", "alt": "Nagrobek Kornela Morawieckiego – płaskorzeźba"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3040.webp", "alt": "Nagrobek Kornela Morawieckiego – inskrypcja"},
+                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3041.webp", "alt": "Nagrobek Kornela Morawieckiego – inskrypcja"}
+                    ]
+                },
+                {
+                    "title": "Pomnik Wspólnej Pamięci",
+                    "place": "Wrocław",
+                    "thumbnail": "realizacje/pomnik-wspolnej-pamieci/thumbs/widok-dzienny.webp",
+                    "images": [
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3766.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3768.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3778.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3779.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3804.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3805.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3819.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3825.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
+                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3835.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – detal"}
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "oferta",
+            "type": "gallery",
+            "nav": "Oferta",
+            "title": "Oferta",
+            "content": "<p>Projektuję i wykonuję na zamówienie nagrobki artystyczne, rzeźbę nagrobną, płaskorzeźby, pomniki, epitafia i tablice pamiątkowe.</p><p>Każde zamówienie zaczyna się od rozmowy. Poznaję historię osoby lub wydarzenia, które mamy upamiętnić, i oczekiwania rodziny lub inwestora. Następnie dobieram formę, proporcje i kamień do miejsca, w którym dzieło stanie.</p><p>Na etapie wykonania pilnuję jakości detalu i zgodności z projektem, aż do montażu.</p>",
+            "images": [
+                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3033.webp", "alt": "Płaskorzeźba na nagrobku Kornela Morawieckiego"},
+                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3040.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3040.webp", "alt": "Inskrypcja na nagrobku Kornela Morawieckiego"},
+                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3031.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3031.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
+                {"src": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/widok-dzienny.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu"},
+                {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3804.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/dscf3804.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
+                {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3835.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/dscf3835.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – detal"}
+            ]
+        },
+        {
+            "id": "wspolpraca",
+            "type": "text",
+            "nav": "Współpraca",
+            "title": "Współpraca z kamieniarzami",
+            "content": "<p>Realizacje wykonuję we współpracy ze sprawdzonymi zakładami kamieniarskimi. Przy nagrobku Kornela Morawieckiego współpracowałem z firmą Granity Skwara, współpracuję też z zakładem granitowym ze Strzegomia.</p><h3>Dla zakładów kamieniarskich</h3><p>Jeśli prowadzisz zakład kamieniarski, a Twój klient chce nagrobka z rzeźbą, płaskorzeźbą lub nietypową formą, zapraszam do współpracy. Przygotuję projekt i wykonam elementy rzeźbiarskie, a Twój zakład zajmie się wykonaniem i montażem.</p>"
+        },
+        {
+            "id": "faq",
+            "type": "faq",
+            "nav": "FAQ",
+            "title": "Najczęstsze pytania",
+            "content": "<p>Odpowiedzi na pytania, które zadają najczęściej rodziny i inwestorzy. Jeśli nie ma tu Twojego pytania, napisz lub zadzwoń.</p>",
+            "items": [
+                {
+                    "q": "Jak wygląda zamówienie nagrobka artystycznego?",
+                    "a": "Zaczynamy od rozmowy o osobie, którą chcemy upamiętnić, o miejscu i o oczekiwaniach rodziny. Na tej podstawie przygotowuję projekt. Po jego akceptacji nagrobek powstaje we współpracy z zakładem kamieniarskim, aż do montażu na cmentarzu."
+                },
+                {
+                    "q": "Ile kosztuje nagrobek z rzeźbą?",
+                    "a": "Cena zależy od wielkości nagrobka, rodzaju kamienia i zakresu prac rzeźbiarskich. Każdą realizację wyceniam indywidualnie, po rozmowie i wstępnym projekcie."
+                },
+                {
+                    "q": "Ile trwa realizacja?",
+                    "a": "Czas zależy od skali projektu i dostępności kamienia. Orientacyjny termin podaję razem z wyceną."
+                },
+                {
+                    "q": "Z jakiego kamienia wykonuje Pan nagrobki?",
+                    "a": "Najczęściej z granitu, np. strzegomskiego, a także z marmuru lub piaskowca. Kamień dobieram do projektu, miejsca i warunków, w jakich będzie stał."
+                },
+                {
+                    "q": "Czy można umieścić na nagrobku płaskorzeźbę lub elementy figuralne?",
+                    "a": "Tak. Płaskorzeźba i elementy figuralne to jedna z moich specjalności, czego przykładem jest nagrobek Kornela Morawieckiego na Powązkach."
+                },
+                {
+                    "q": "Czy pomaga Pan w formalnościach na cmentarzu?",
+                    "a": "Tak, pomagam przygotować projekt do akceptacji przez zarząd cmentarza. Na cmentarzach zabytkowych, np. na Powązkach, projekt może wymagać uzgodnień z konserwatorem zabytków."
+                },
+                {
+                    "q": "Czy realizuje Pan zamówienia w całej Polsce?",
+                    "a": "Tak. Moje realizacje stoją m.in. we Wrocławiu, w Warszawie i w Bredzie w Holandii."
+                }
+            ]
+        },
+        {
+            "id": "artykuly",
+            "type": "articles",
+            "nav": "Artykuły",
+            "title": "Artykuły",
+            "content": "<p>Teksty o rzeźbie nagrobnej, projektowaniu upamiętnień i kulisach wybranych realizacji.</p>",
+            "posts": []
+        },
+        {
+            "id": "media",
+            "type": "media",
+            "nav": "Media",
+            "title": "Media",
+            "content": "<p>Artykuły prasowe, wywiady i materiały o twórczości Tomasza Tomaszewskiego.</p>",
+            "items": []
+        },
+        {
+            "id": "kontakt",
+            "type": "text",
+            "nav": "Kontakt",
+            "title": "Kontakt",
+            "content": "<p>Jeśli myślisz o upamiętnieniu bliskiej osoby lub planujesz pomnik, napisz lub zadzwoń. Porozmawiamy spokojnie o Twoich potrzebach.</p><div class='contact-info'><div class='contact-item'><strong>Telefon:</strong> <a href='tel:+48000000000'>+48 000 000 000</a></div><div class='contact-item'><strong>Email:</strong> <a href='mailto:kontakt@tomasztomaszewski.pl'>kontakt@tomasztomaszewski.pl</a></div><div class='contact-item'><strong>Facebook:</strong> <a href='#'>do uzupełnienia</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='#'>do uzupełnienia</a></div><div class='contact-item'><strong>Zasięg:</strong> cała Polska i zagranica</div></div>"
+        }
+    ]
+}
