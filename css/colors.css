@@ -1,0 +1,8 @@
+/* Globalne zmienne kolorystyczne */
+:root {
+    --color-background: #ffffff;
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-accent: #2c3e50;
+    --color-border: #e0e0e0;
+}
