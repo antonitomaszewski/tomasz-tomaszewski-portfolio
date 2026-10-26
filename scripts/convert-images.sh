@@ -38,6 +38,8 @@ for dir in $SRC/*/; do
         w=$(sips -g pixelWidth  "$TMP/in.jpg" | awk '/pixelWidth/ {print $2}')
         h=$(sips -g pixelHeight "$TMP/in.jpg" | awk '/pixelHeight/ {print $2}')
         if (( w >= h )); then big="2000 0"; small="600 0"; else big="0 2000"; small="0 600"; fi
+        # nie powiększamy małych zdjęć – to tylko zwiększa wagę, a nie dodaje szczegółów
+        if (( (w > h ? w : h) <= 2000 )); then big="0 0"; fi
 
         cwebp -quiet -q 80 -resize ${=big}   "$TMP/in.jpg" -o "$full"
         cwebp -quiet -q 75 -resize ${=small} "$TMP/in.jpg" -o "$thumb"
