@@ -1,6 +1,6 @@
 {
     "title": "Tomasz Tomaszewski",
-    "subtitle": "Rzeźbiarz · nagrobki · pomniki · meble artystyczne · rzeźba abstrakcyjna",
+    "subtitle": "Rzeźbiarz · nagrobki · pomniki · meble artystyczne · małe formy rzeźbiarskie",
     "hero": "realizacje/pomniki/wspolnej-pamieci-widok-dzienny.webp",
     "backgrounds": [
         "realizacje/nagrobki/morawiecki-dscf3033.webp",
@@ -21,7 +21,7 @@
             "type": "portfolio",
             "nav": "Realizacje",
             "title": "Realizacje",
-            "content": "<p>Realizuję nagrobki, pomniki, meble artystyczne i rzeźbę abstrakcyjną. Kliknij kategorię, aby zobaczyć galerię.</p>",
+            "content": "<p>Realizuję nagrobki, pomniki, meble artystyczne i małe formy rzeźbiarskie. Kliknij kategorię, aby zobaczyć galerię.</p>",
             "categories": [
                 {
                     "title": "Nagrobki",
@@ -61,8 +61,8 @@
                     "folder": "meble"
                 },
                 {
-                    "title": "Rzeźba abstrakcyjna",
-                    "folder": "rzezba-abstrakcyjna"
+                    "title": "Małe formy rzeźbiarskie",
+                    "folder": "male-formy"
                 }
             ]
         },
@@ -71,7 +71,7 @@
             "type": "text",
             "nav": "Oferta",
             "title": "Oferta",
-            "content": "<p>Projektuję i wykonuję na zamówienie:</p><h3>Nagrobki</h3><p>Nagrobki artystyczne, rzeźba nagrobna, płaskorzeźby i epitafia, projektowane indywidualnie dla rodziny i miejsca.</p><h3>Pomniki</h3><p>Pomniki, tablice pamiątkowe i kompozycje upamiętniające dla instytucji, miast i inwestorów.</p><h3>Meble artystyczne</h3><p>Unikatowe meble i obiekty użytkowe, w których forma rzeźbiarska łączy się z funkcją.</p><h3>Rzeźba abstrakcyjna</h3><p>Rzeźby do wnętrz, ogrodów i przestrzeni publicznych.</p><p>Każde zamówienie zaczyna się od rozmowy. Poznaję historię, którą dzieło ma opowiadać, i oczekiwania zamawiającego. Następnie dobieram formę, proporcje i materiał do miejsca, w którym dzieło stanie, i pilnuję jakości wykonania aż do montażu.</p>"
+            "content": "<p>Projektuję i wykonuję na zamówienie:</p><h3>Nagrobki</h3><p>Nagrobki artystyczne, rzeźba nagrobna, płaskorzeźby i epitafia, projektowane indywidualnie dla rodziny i miejsca.</p><h3>Pomniki</h3><p>Pomniki, tablice pamiątkowe i kompozycje upamiętniające dla instytucji, miast i inwestorów.</p><h3>Meble artystyczne</h3><p>Unikatowe meble i obiekty użytkowe, w których forma rzeźbiarska łączy się z funkcją.</p><h3>Małe formy rzeźbiarskie</h3><p>Rzeźby kameralne do wnętrz, statuetki na zamówienie, nagrody dla firm i instytucji oraz rzeźby na prezent.</p><p>Każde zamówienie zaczyna się od rozmowy. Poznaję historię, którą dzieło ma opowiadać, i oczekiwania zamawiającego. Następnie dobieram formę, proporcje i materiał do miejsca, w którym dzieło stanie, i pilnuję jakości wykonania aż do montażu.</p>"
         },
         {
             "id": "wspolpraca",

@@ -141,11 +141,11 @@ function renderStructuredData(sections) {
         '@type': 'Person',
         name: 'Tomasz Tomaszewski',
         jobTitle: 'Rzeźbiarz',
-        description: 'Rzeźbiarz: nagrobki artystyczne, pomniki, meble artystyczne i rzeźba abstrakcyjna na zamówienie.',
+        description: 'Rzeźbiarz: nagrobki artystyczne, pomniki, meble artystyczne i małe formy rzeźbiarskie na zamówienie.',
         image: img('profile.webp'),
         telephone: ['+48 600 941 844', '+48 664 746 666'],
         email: 'tomasz.ewski@wp.pl',
-        knowsAbout: ['rzeźba', 'rzeźba nagrobna', 'nagrobki artystyczne', 'pomniki', 'meble artystyczne', 'rzeźba abstrakcyjna', 'płaskorzeźba', 'rzeźba w kamieniu'],
+        knowsAbout: ['rzeźba', 'rzeźba nagrobna', 'nagrobki artystyczne', 'pomniki', 'meble artystyczne', 'małe formy rzeźbiarskie', 'statuetki na zamówienie', 'płaskorzeźba', 'rzeźba w kamieniu'],
     };
     const scripts = [person];
 

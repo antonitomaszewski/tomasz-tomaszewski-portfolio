@@ -26,7 +26,7 @@ python3 -m http.server 8080   # → http://localhost:8080
 ## Zdjęcia
 
 Realizacje mają 4 kategorie – każda to folder:
-`nagrobki`, `pomniki`, `meble`, `rzezba-abstrakcyjna`.
+`nagrobki`, `pomniki`, `meble`, `male-formy`.
 
 1. Wrzuć oryginalne JPG do `zdjecia-oryginalne/<kategoria>/` (folder jest w `.gitignore`, nie idzie do repo).
    Dobrze dać przedrostek realizacji, np. `morawiecki-DSCF3026.JPG`.
