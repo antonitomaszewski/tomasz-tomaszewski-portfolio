@@ -1,12 +1,12 @@
 {
     "title": "Tomasz Tomaszewski",
-    "subtitle": "Rzeźbiarz · nagrobki artystyczne i pomniki na zamówienie",
-    "hero": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp",
+    "subtitle": "Rzeźbiarz · nagrobki · pomniki · meble artystyczne · rzeźba abstrakcyjna",
+    "hero": "realizacje/pomniki/wspolnej-pamieci-widok-dzienny.webp",
     "backgrounds": [
-        "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp",
-        "realizacje/pomnik-wspolnej-pamieci/dscf3805.webp",
-        "realizacje/nagrobek-kornela-morawieckiego/dscf3026.webp",
-        "realizacje/pomnik-wspolnej-pamieci/dscf3779.webp"
+        "realizacje/nagrobki/morawiecki-dscf3033.webp",
+        "realizacje/pomniki/wspolnej-pamieci-dscf3805.webp",
+        "realizacje/nagrobki/morawiecki-dscf3026.webp",
+        "realizacje/pomniki/wspolnej-pamieci-dscf3779.webp"
     ],
     "sections": [
         {
@@ -18,60 +18,60 @@
         },
         {
             "id": "realizacje",
-            "type": "series",
+            "type": "portfolio",
             "nav": "Realizacje",
             "title": "Realizacje",
-            "content": "<p>Wybrane realizacje. Kliknij, aby zobaczyć galerię.</p>",
-            "series": [
+            "content": "<p>Realizuję nagrobki, pomniki, meble artystyczne i rzeźbę abstrakcyjną. Kliknij kategorię, aby zobaczyć galerię.</p>",
+            "categories": [
                 {
-                    "title": "Nagrobek Kornela Morawieckiego",
-                    "place": "Powązki, Warszawa",
-                    "thumbnail": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3031.webp",
-                    "images": [
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3026.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3027.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3028.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3029.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3031.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3032.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp", "alt": "Nagrobek Kornela Morawieckiego – płaskorzeźba"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3040.webp", "alt": "Nagrobek Kornela Morawieckiego – inskrypcja"},
-                        {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3041.webp", "alt": "Nagrobek Kornela Morawieckiego – inskrypcja"}
-                    ]
+                    "title": "Nagrobki",
+                    "folder": "nagrobki",
+                    "cover": "morawiecki-dscf3031.webp",
+                    "alts": {
+                        "morawiecki-dscf3026.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3027.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3028.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3029.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3031.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3032.webp": "Nagrobek Kornela Morawieckiego na Powązkach",
+                        "morawiecki-dscf3033.webp": "Nagrobek Kornela Morawieckiego – płaskorzeźba",
+                        "morawiecki-dscf3040.webp": "Nagrobek Kornela Morawieckiego – inskrypcja",
+                        "morawiecki-dscf3041.webp": "Nagrobek Kornela Morawieckiego – inskrypcja"
+                    }
                 },
                 {
-                    "title": "Pomnik Wspólnej Pamięci",
-                    "place": "Wrocław",
-                    "thumbnail": "realizacje/pomnik-wspolnej-pamieci/thumbs/widok-dzienny.webp",
-                    "images": [
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3766.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3768.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3778.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3779.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3804.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3805.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3819.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3825.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu nocą"},
-                        {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3835.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – detal"}
-                    ]
+                    "title": "Pomniki",
+                    "folder": "pomniki",
+                    "cover": "wspolnej-pamieci-widok-dzienny.webp",
+                    "alts": {
+                        "wspolnej-pamieci-widok-dzienny.webp": "Pomnik Wspólnej Pamięci we Wrocławiu",
+                        "wspolnej-pamieci-dscf3766.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3768.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3778.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3779.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3804.webp": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze",
+                        "wspolnej-pamieci-dscf3805.webp": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze",
+                        "wspolnej-pamieci-dscf3819.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3825.webp": "Pomnik Wspólnej Pamięci we Wrocławiu nocą",
+                        "wspolnej-pamieci-dscf3835.webp": "Pomnik Wspólnej Pamięci we Wrocławiu – detal"
+                    }
+                },
+                {
+                    "title": "Meble artystyczne",
+                    "folder": "meble"
+                },
+                {
+                    "title": "Rzeźba abstrakcyjna",
+                    "folder": "rzezba-abstrakcyjna"
                 }
             ]
         },
         {
             "id": "oferta",
-            "type": "gallery",
+            "type": "text",
             "nav": "Oferta",
             "title": "Oferta",
-            "content": "<p>Projektuję i wykonuję na zamówienie nagrobki artystyczne, rzeźbę nagrobną, płaskorzeźby, pomniki, epitafia i tablice pamiątkowe.</p><p>Każde zamówienie zaczyna się od rozmowy. Poznaję historię osoby lub wydarzenia, które mamy upamiętnić, i oczekiwania rodziny lub inwestora. Następnie dobieram formę, proporcje i kamień do miejsca, w którym dzieło stanie.</p><p>Na etapie wykonania pilnuję jakości detalu i zgodności z projektem, aż do montażu.</p>",
-            "images": [
-                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3033.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3033.webp", "alt": "Płaskorzeźba na nagrobku Kornela Morawieckiego"},
-                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3040.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3040.webp", "alt": "Inskrypcja na nagrobku Kornela Morawieckiego"},
-                {"src": "realizacje/nagrobek-kornela-morawieckiego/dscf3031.webp", "thumb": "realizacje/nagrobek-kornela-morawieckiego/thumbs/dscf3031.webp", "alt": "Nagrobek Kornela Morawieckiego na Powązkach"},
-                {"src": "realizacje/pomnik-wspolnej-pamieci/widok-dzienny.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/widok-dzienny.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu"},
-                {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3804.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/dscf3804.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – znicze"},
-                {"src": "realizacje/pomnik-wspolnej-pamieci/dscf3835.webp", "thumb": "realizacje/pomnik-wspolnej-pamieci/thumbs/dscf3835.webp", "alt": "Pomnik Wspólnej Pamięci we Wrocławiu – detal"}
-            ]
+            "content": "<p>Projektuję i wykonuję na zamówienie:</p><h3>Nagrobki</h3><p>Nagrobki artystyczne, rzeźba nagrobna, płaskorzeźby i epitafia, projektowane indywidualnie dla rodziny i miejsca.</p><h3>Pomniki</h3><p>Pomniki, tablice pamiątkowe i kompozycje upamiętniające dla instytucji, miast i inwestorów.</p><h3>Meble artystyczne</h3><p>Unikatowe meble i obiekty użytkowe, w których forma rzeźbiarska łączy się z funkcją.</p><h3>Rzeźba abstrakcyjna</h3><p>Rzeźby do wnętrz, ogrodów i przestrzeni publicznych.</p><p>Każde zamówienie zaczyna się od rozmowy. Poznaję historię, którą dzieło ma opowiadać, i oczekiwania zamawiającego. Następnie dobieram formę, proporcje i materiał do miejsca, w którym dzieło stanie, i pilnuję jakości wykonania aż do montażu.</p>"
         },
         {
             "id": "wspolpraca",
@@ -118,27 +118,11 @@
             ]
         },
         {
-            "id": "artykuly",
-            "type": "articles",
-            "nav": "Artykuły",
-            "title": "Artykuły",
-            "content": "<p>Teksty o rzeźbie nagrobnej, projektowaniu upamiętnień i kulisach wybranych realizacji.</p>",
-            "posts": []
-        },
-        {
-            "id": "media",
-            "type": "media",
-            "nav": "Media",
-            "title": "Media",
-            "content": "<p>Artykuły prasowe, wywiady i materiały o twórczości Tomasza Tomaszewskiego.</p>",
-            "items": []
-        },
-        {
             "id": "kontakt",
             "type": "text",
             "nav": "Kontakt",
             "title": "Kontakt",
-            "content": "<p>Jeśli myślisz o upamiętnieniu bliskiej osoby lub planujesz pomnik, napisz lub zadzwoń. Porozmawiamy spokojnie o Twoich potrzebach.</p><div class='contact-info'><div class='contact-item'><strong>Telefon:</strong> <a href='tel:+48000000000'>+48 000 000 000</a></div><div class='contact-item'><strong>Email:</strong> <a href='mailto:kontakt@tomasztomaszewski.pl'>kontakt@tomasztomaszewski.pl</a></div><div class='contact-item'><strong>Facebook:</strong> <a href='#'>do uzupełnienia</a></div><div class='contact-item'><strong>Instagram:</strong> <a href='#'>do uzupełnienia</a></div><div class='contact-item'><strong>Zasięg:</strong> cała Polska i zagranica</div></div>"
+            "content": "<p>Jeśli myślisz o upamiętnieniu bliskiej osoby lub planujesz pomnik, napisz lub zadzwoń. Porozmawiamy spokojnie o Twoich potrzebach.</p><div class='contact-info'><div class='contact-item'><strong>Telefon:</strong> <a href='tel:+48600941844'>600 941 844</a>, <a href='tel:+48664746666'>664 746 666</a></div><div class='contact-item'><strong>Email:</strong> <a href='mailto:tomasz.ewski@wp.pl'>tomasz.ewski@wp.pl</a></div><div class='contact-item'><strong>Zasięg:</strong> cała Polska i zagranica</div></div>"
         }
     ]
 }

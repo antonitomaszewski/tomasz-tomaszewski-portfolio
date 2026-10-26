@@ -1,7 +1,7 @@
 # Tomasz Tomaszewski – rzeźbiarz
 
 Strona-wizytówka: nagrobki artystyczne, pomniki i rzeźba na zamówienie.
-Jedna strona z kotwicami i sticky menu: O twórcy · Realizacje · Oferta · Współpraca · FAQ · Artykuły · Media · Kontakt.
+Jedna strona z kotwicami i sticky menu: O twórcy · Realizacje · Oferta · Współpraca · FAQ · Kontakt.
 
 ## Jak pracować ze stroną
 
@@ -25,9 +25,14 @@ python3 -m http.server 8080   # → http://localhost:8080
 
 ## Zdjęcia
 
-1. Wrzuć oryginalne JPG do `zdjecia-oryginalne/<nazwa-realizacji>/` (folder jest w `.gitignore`, nie idzie do repo).
-2. `./scripts/convert-images.sh` → webp w `data/images/realizacje/<nazwa-realizacji>/` (2000 px + miniatury 600 px).
-3. Dodaj zdjęcia do odpowiedniej serii w `data/content.json` i uruchom `node build.js`.
+Realizacje mają 4 kategorie – każda to folder:
+`nagrobki`, `pomniki`, `meble`, `rzezba-abstrakcyjna`.
+
+1. Wrzuć oryginalne JPG do `zdjecia-oryginalne/<kategoria>/` (folder jest w `.gitignore`, nie idzie do repo).
+   Dobrze dać przedrostek realizacji, np. `morawiecki-DSCF3026.JPG`.
+2. `./scripts/convert-images.sh && node build.js`
+3. Kategoria pojawia się na stronie sama, pusta jest ukryta.
+   Opis zdjęcia (alt) i okładkę ustawisz w `data/content.json` (`alts`, `cover`).
 
 ## Przed publikacją na własnej domenie
 

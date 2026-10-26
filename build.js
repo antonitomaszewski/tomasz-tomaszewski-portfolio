@@ -1,5 +1,5 @@
 // Generuje gotowy index.html z template.html + data/content.json.
-// Dzięki temu cała treść jest w HTML (dobre dla Google), a JS obsługuje tylko lightbox i artykuły.
+// Dzięki temu cała treść jest w HTML (dobre dla Google), a JS obsługuje tylko lightbox.
 //
 // Użycie: node build.js
 
@@ -35,23 +35,30 @@ function renderAbout(section) {
         </section>`;
 }
 
-function renderGallery(section) {
-    const imagesGrid = section.images.map(image =>
-        `<a href="${img(image.src)}" class="glightbox" data-gallery="${section.id}" data-title="${esc(image.alt)}">
-                        <img src="${img(image.thumb)}" alt="${esc(image.alt)}" loading="lazy">
-                    </a>`
-    ).join('\n                    ');
+// Realizacje: każda kategoria to folder data/images/realizacje/<folder>/ (webp + thumbs/).
+// Zdjęcia czytamy z folderu, więc wystarczy je wrzucić – pusta kategoria się nie pokazuje.
+// Opis zdjęcia (alt) bierzemy z "alts" w content.json, a gdy go brak – z nazwy kategorii.
+function realizationCategories(categories) {
+    return categories.map(category => {
+        const dir = `${IMAGES}/realizacje/${category.folder}`;
+        const files = fs.existsSync(dir)
+            ? fs.readdirSync(dir).filter(file => file.endsWith('.webp')).sort()
+            : [];
+        const alts = category.alts || {};
+        const cover = category.cover || files[0];
+        return {
+            title: category.title,
+            thumbnail: `realizacje/${category.folder}/thumbs/${cover}`,
+            images: files.map(file => ({
+                src: `realizacje/${category.folder}/${file}`,
+                alt: alts[file] || `${category.title} – Tomasz Tomaszewski, rzeźbiarz`,
+            })),
+        };
+    }).filter(category => category.images.length);
+}
 
-    return `
-        <section class="content-section" id="${section.id}">
-            <h2>${section.title}</h2>
-            <div class="portfolio-content">
-                <div>${section.content}</div>
-                <div class="lightbox-gallery">
-                    ${imagesGrid}
-                </div>
-            </div>
-        </section>`;
+function renderPortfolio(section) {
+    return renderSeries({ ...section, series: realizationCategories(section.categories) });
 }
 
 function renderSeries(section) {
@@ -59,7 +66,6 @@ function renderSeries(section) {
         `<div class="series-item" data-series="${index}">
                         <img src="${img(serie.thumbnail)}" alt="${esc(serie.title)}" loading="lazy">
                         <h3>${serie.title}</h3>
-                        <p class="series-place">${serie.place}</p>
                         <div class="series-gallery" id="series-${index}" style="display: none;">
                             ${serie.images.map(image =>
                                 `<a href="${img(image.src)}" class="glightbox" data-gallery="series-${index}" data-title="${esc(image.alt)}" aria-label="${esc(image.alt)}"></a>`
@@ -75,46 +81,6 @@ function renderSeries(section) {
                 <div>${section.content}</div>
                 <div class="series-grid">
                     ${seriesGrid}
-                </div>
-            </div>
-        </section>`;
-}
-
-function renderArticles(section) {
-    const postsList = section.posts.map(post =>
-        `<article class="blog-post">
-                        <a href="#" class="blog-link" data-slug="${post.slug}">
-                            <h3>${post.title}</h3>
-                            <time datetime="${post.date}">${post.date}</time>
-                        </a>
-                    </article>`
-    ).join('\n                    ') || '<p>Pierwsze artykuły wkrótce.</p>';
-
-    return renderList(section, postsList);
-}
-
-// Media: linki do zewnętrznych artykułów i wywiadów
-function renderMedia(section) {
-    const itemsList = section.items.map(item =>
-        `<article class="blog-post">
-                        <a href="${item.url}" class="blog-link" target="_blank" rel="noopener">
-                            <h3>${item.title}</h3>
-                            <time datetime="${item.date}">${item.source}, ${item.date}</time>
-                        </a>
-                    </article>`
-    ).join('\n                    ') || '<p>Materiały wkrótce.</p>';
-
-    return renderList(section, itemsList);
-}
-
-function renderList(section, listHtml) {
-    return `
-        <section class="content-section" id="${section.id}">
-            <h2>${section.title}</h2>
-            <div class="blog-content">
-                <div>${section.content}</div>
-                <div class="blog-posts">
-                    ${listHtml}
                 </div>
             </div>
         </section>`;
@@ -151,10 +117,7 @@ function renderText(section) {
 
 const renderers = {
     about: renderAbout,
-    gallery: renderGallery,
-    series: renderSeries,
-    articles: renderArticles,
-    media: renderMedia,
+    portfolio: renderPortfolio,
     faq: renderFaq,
     text: renderText,
 };
@@ -178,9 +141,11 @@ function renderStructuredData(sections) {
         '@type': 'Person',
         name: 'Tomasz Tomaszewski',
         jobTitle: 'Rzeźbiarz',
-        description: 'Rzeźbiarz, projektant nagrobków artystycznych, pomników i rzeźby na zamówienie.',
+        description: 'Rzeźbiarz: nagrobki artystyczne, pomniki, meble artystyczne i rzeźba abstrakcyjna na zamówienie.',
         image: img('profile.webp'),
-        knowsAbout: ['rzeźba', 'rzeźba nagrobna', 'nagrobki artystyczne', 'pomniki', 'płaskorzeźba', 'rzeźba w kamieniu'],
+        telephone: ['+48 600 941 844', '+48 664 746 666'],
+        email: 'tomasz.ewski@wp.pl',
+        knowsAbout: ['rzeźba', 'rzeźba nagrobna', 'nagrobki artystyczne', 'pomniki', 'meble artystyczne', 'rzeźba abstrakcyjna', 'płaskorzeźba', 'rzeźba w kamieniu'],
     };
     const scripts = [person];
 
