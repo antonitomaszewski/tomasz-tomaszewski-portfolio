@@ -5,6 +5,10 @@
     "backgrounds": [
         "realizacje/nagrobki/morawiecki-dscf3033.webp",
         "realizacje/pomniki/wspolnej-pamieci-dscf3805.webp",
+        {
+            "src": "realizacje/meble/stol-na-wodzie.webp",
+            "position": "center 0%"
+        },
         "realizacje/nagrobki/morawiecki-dscf3026.webp",
         "realizacje/pomniki/wspolnej-pamieci-dscf3779.webp"
     ],

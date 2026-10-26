@@ -122,13 +122,21 @@ const renderers = {
     text: renderText,
 };
 
+// Tło to ścieżka do zdjęcia albo {src, position}, gdy trzeba pokazać inny fragment niż środek
+// (np. pionowe zdjęcie w szerokim pasie: position "center 20%" = bliżej góry kadru).
+function renderBackground(background) {
+    const { src, position } = typeof background === 'string' ? { src: background } : background;
+    const positionStyle = position ? `; background-position: ${position}` : '';
+    return `
+        <div class="background-section" style="background-image: url('${img(src)}')${positionStyle}"></div>`;
+}
+
 // Sekcje z tłami pomiędzy – tło po każdej sekcji, dopóki starczy zdjęć
 function renderSections(sections, backgrounds) {
     return sections.map((section, index) => {
         let html = renderers[section.type](section);
         if (index < backgrounds.length) {
-            html += `
-        <div class="background-section" style="background-image: url('${img(backgrounds[index])}')"></div>`;
+            html += renderBackground(backgrounds[index]);
         }
         return html;
     }).join('\n');
